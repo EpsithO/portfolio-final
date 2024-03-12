@@ -1,0 +1,13 @@
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/velvet.omp.json" | Invoke-Expression
+
+Import-Module -Name Terminal-Icons
+
+Import-Module posh-git
+
+Set-PSReadLineOPtion -PredictionViewStyle ListView
+
+Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+
+
+
+install terminal avec ubuntu pc
