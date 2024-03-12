@@ -865,6 +865,7 @@ select {
 
 .product-image {
     transition: all 0.5s ease-out;
+    width: 100%;
 }
 
 .product-thumb:hover .product-image {
